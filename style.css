@@ -1,0 +1,28 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+body {
+    user-select: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.tempo-settigns {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.tempo-settings .adjust-tempo-btn:hover {
+    background: #fa545c;
+    color: #fff;
+}
+.bpm-display {
+    font-size: 4em;
+}
+.start-stop {
+    text-align: center;
+}
